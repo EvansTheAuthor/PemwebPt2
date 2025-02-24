@@ -1,0 +1,546 @@
+*{
+    margin: 0%;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+.main{
+    display: flex;
+}
+
+.left{
+    height: 100vb;
+    width: 600px;
+    border-right: 1px solid gray;
+    
+}
+
+.logo{
+    margin-top: 15px;
+    margin-left: 335px;
+    width: 25px;
+    height: 25px;
+}
+
+.homeBar{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 335px;
+    margin-bottom: 25px;
+}
+
+.home{
+    width: 35px;
+    height: 35px;
+}
+
+.homeText{
+    margin-left: 25px;
+    margin-top: 8px;
+    font-size: 20px;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.searchBar{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 335px;
+    margin-bottom: 25px;
+}
+
+.search{
+    width: 35px;
+    height: 35px;
+}
+
+.searchText{
+    margin-left: 25px;
+    margin-top: 8px;
+    font-size: 20px;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.notificationBar{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 335px;
+    margin-bottom: 25px;
+}
+
+.notification{
+    width: 35px;
+    height: 35px;
+}
+
+.notificationText{
+    margin-left: 25px;
+    margin-top: 8px;
+    font-size: 20px;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.messageBar{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 335px;
+    margin-bottom: 25px;
+}
+
+.message{
+    width: 35px;
+    height: 35px;
+}
+
+.messageText{
+    margin-left: 25px;
+    margin-top: 8px;
+    font-size: 20px;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grokBar{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 335px;
+    margin-bottom: 25px;
+}
+
+.grok{
+    width: 35px;
+    height: 35px;
+}
+
+.grokText{
+    margin-left: 25px;
+    margin-top: 8px;
+    font-size: 20px;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bookmarkBar{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 335px;
+    margin-bottom: 25px;
+}
+
+.bookmark{
+    width: 35px;
+    height: 35px;
+}
+
+.bookmarkText{
+    margin-left: 25px;
+    margin-top: 8px;
+    font-size: 20px;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.jobBar{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 335px;
+    margin-bottom: 25px;
+}
+
+.job{
+    width: 35px;
+    height: 35px;
+}
+
+.jobText{
+    margin-left: 25px;
+    margin-top: 8px;
+    font-size: 20px;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.communityBar{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 335px;
+    margin-bottom: 25px;
+}
+
+.community{
+    width: 35px;
+    height: 35px;
+}
+
+.communityText{
+    margin-left: 25px;
+    margin-top: 8px;
+    font-size: 20px;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.premiumBar{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 335px;
+    margin-bottom: 25px;
+}
+
+.premium{
+    width: 35px;
+    height: 35px;
+}
+
+.premiumText{
+    margin-left: 25px;
+    margin-top: 8px;
+    font-size: 20px;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.verifiedOrgBar{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 335px;
+    margin-bottom: 25px;
+}
+
+.verifiedOrg{
+    width: 35px;
+    height: 35px;
+}
+
+.verifiedOrgText{
+    margin-left: 25px;
+    margin-top: 8px;
+    font-size: 20px;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.profileBar{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 335px;
+    margin-bottom: 25px;
+}
+
+.profile{
+    width: 25px;
+    height: 25px;
+}
+
+.profileText{
+    margin-left: 25px;
+    margin-top: 8px;
+    font-size: 20px;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.moreBar{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 335px;
+    margin-bottom: 25px;
+}
+
+.more{
+    border: 3px solid black;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+
+.moreText{
+    margin-left: 25px;
+    margin-top: 8px;
+    font-size: 20px;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.post{
+    margin-top: 15px;
+    margin-left: 335px;
+    margin-bottom: 25px;
+    width: 200px;
+    height: 50px;
+    border: 3px solid black;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    font-size: x-large;
+}
+
+.profileDetail{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 335px;
+    margin-bottom: 25px;
+}
+
+.profilePicture{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.name{
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.username{
+    font-size: smaller;
+    color: grey;
+}
+
+.moreProfile{
+    margin-left: 105px;
+    width: 15px;
+    height: 15px;
+}
+
+.middle{
+    height: 100vb;
+    width: 600px;
+}
+
+.upperTab{
+    display: flex;
+    height: 40px;
+    margin-top: 10px;
+    border-bottom: 1px solid gray;
+}
+
+.back{
+    margin-top: 8px;
+    margin-left: 20px;
+    width: 20px;
+    height: 20px;
+}
+
+.userTop{
+    margin-left: 50px;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.usernameTop{
+    color: grey;
+    font-size: smaller;
+}
+
+.ppheader{
+    width: 600px;
+    height: 240px;
+}
+
+.ppMain{
+    position: relative;
+    top: -80px;
+    left: 20px;
+    width: 140px;
+    height: 140px;
+    border: 3px solid white;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.edit{
+    position: relative;
+    top: -125px;
+    margin-left: 340px;
+    width: 100px;
+    height: 25px;
+    border: 2px solid black;
+    border-radius: 25px;
+    font-size: x-large;
+}
+
+.headBio{
+    display: flex;
+    position:relative; 
+    top: -80px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.mainName{
+    font-size: x-large;
+}
+
+.mainUsername{
+    margin-top: 5px;
+    font-size: small;
+    color: gray;
+}
+
+.getVerif{
+    margin-left: 10px;
+    display:flex;
+    width: 210px;
+    height: 25px;
+    border: 2px solid black;
+    border-radius: 25px;
+    font-size: x-large;
+}
+
+.verifBadgeBtn{
+    margin-left: -20px;
+    width: 80px;
+    height: 20px;
+}
+
+.getVerifText{
+    margin-left: -20px;
+}
+
+.mainBio{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -50px;
+    margin-left: 20px;
+
+}
+
+.bio{
+    margin-bottom: 10px;
+}
+
+.birthJoin{
+    display: flex;
+    color: grey;
+    margin-bottom: 10px;
+}
+
+.birthIcon{
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+.birth{
+    margin-right: 5px;
+}
+
+.joinDate{
+    width: 15px;
+    height: 15px;
+    margin-left: 3px;
+    margin-right: 5px;
+}
+
+.follow{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.countFollowing{
+    margin-right: 3px;
+}
+
+.following{
+    margin-right: 3px;
+    color: grey;
+}
+
+.countFollower{
+    margin-right: 3px;
+}
+
+.follower{
+    margin-right: 3px;
+    color: grey;
+}
+
+.contentColumn{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.posts{
+    margin-right: 45px;
+}
+
+.replies{
+    margin-right: 45px;
+}
+
+.highlight{
+    margin-right: 45px;
+}
+
+.articles{
+    margin-right: 45px;
+}
+
+.media{
+    margin-right: 45px;
+}
+
+.accPost{
+    
+}
+
+.retweetStatement{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: gray;
+    display: flex;
+}
+
+.retweetSym{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.retweetText{
+    margin-top: -0.01px;
+}
+
+.PostProfile{
+    display: flex;
+    margin-left: 20px;
+}
+
+.postpp{
+    width: 40px;
+    height: 40px;
+    border: 3px solid white;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.poster{
+    position: relative;
+    margin-top: -18px;
+    display: flex;
+}
+
+.namePost{
+    margin-right: 5px;
+}
+
+.usernamePost{
+    margin-right: 5px;
+    color: grey;
+}
+
+.datePost{
+    color: grey;
+}
+
+.right{
+    border-left: 1px solid gray;
+    height: 100vb;
+}
+
