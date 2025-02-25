@@ -485,13 +485,14 @@
 }
 
 .accPost{
-    
+    margin-bottom: 10px;
 }
 
 .retweetStatement{
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
+    margin-bottom: 10px;
     color: gray;
     display: flex;
 }
@@ -521,26 +522,132 @@
 }
 
 .poster{
-    position: relative;
-    margin-top: -18px;
     display: flex;
+    margin-top: 8px;
+    color: grey;
 }
 
 .namePost{
     margin-right: 5px;
+    color: black;
 }
 
 .usernamePost{
     margin-right: 5px;
-    color: grey;
 }
 
 .datePost{
-    color: grey;
+    margin-right: 270px;
+}
+
+.morePost{
+    width: 15px;
+    height: 15px;
+}
+
+.detailPost{
+    margin-top: 5px;
+    display: flex;
+}
+.reply{
+    color: gray;
+    margin-right: 5px;
+}
+
+.replyTo{
+    color: #1E90FF;
+}
+
+.contentPost{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.reactPost{
+    margin-left: 20px;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.comment{
+    width: 15px;
+    height: 15px;
+    margin-left: 25px;
+    margin-right: 5px;
+}
+
+.commentCount{
+    margin-right: 85px;
+}
+
+.retweet{
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+.retweetCount{
+    margin-right: 85px;
+}
+
+.like{
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+.likeCount{
+    margin-right: 85px;
+}
+
+.stat{
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+.statCount{
+    margin-right: 60px;
+}
+
+.mark{
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+.share{
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
 }
 
 .right{
     border-left: 1px solid gray;
     height: 100vb;
+}
+
+.searchButton{
+    margin-top: 5px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    width: 350px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+
+.searchIcon{
+    margin-top: 8px;
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.searchBtnText{
+    margin-top: 14px;
+    font-size: 15px;
 }
 
