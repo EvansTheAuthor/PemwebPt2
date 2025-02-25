@@ -651,3 +651,139 @@
     font-size: 15px;
 }
 
+.suggestion{
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 350px;
+    height: 275px;
+    border: 1px solid black;
+    border-radius: 10%;
+}
+
+.suggestText, .trendingText{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: larger;
+}
+
+.user1, .user2, .user3{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.user1pp, .user2pp, .user3pp{
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    border-radius: 50px;
+}
+
+.accountUser1{
+    margin-right: 100px;
+}
+
+.accountUser2{
+    margin-right: 120px;
+}
+
+.accountUser3{
+    margin-right: 135px;
+}
+
+.usernameUser1, .usernameUser2, .usernameUser3{
+    color: gray;
+}
+
+.followUser1, .followUser2, .followUser3{
+    width: 80px;
+    border-radius: 15px;
+    border: 1px solid black;
+    font-size: large;
+    background-color: white;
+}
+
+.showMore{
+    margin-top: 33px;
+    margin-left: 12px;
+    color: #1E90FF;
+}
+
+.trending{
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 350px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 10%;
+}
+
+.topic1, .topic2, .topic3{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 10px;
+    color: gray;
+}
+
+.topic1Title, .topic2Title, .topic3Title{
+    font-size: medium;
+    
+    color: black;
+}
+
+.topic1Content{
+    margin-right: 200px;
+}
+
+.topic2Content{
+    margin-right: 77px;
+}
+
+.topic3Content{
+    margin-right: 195px;
+}
+
+.moreTopic1, .moreTopic2, .moreTopic3{
+    margin-top: 5px;
+    width: 15px;
+    height: 15px
+}
+
+.GrokButton{
+    margin-top: 140px;
+    margin-left: 640px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 10%;
+    width: 60px;
+    height: 60px;
+}
+
+
+.messageButton{
+    margin-left: 280px;
+    display: flex;
+    height: 55px;
+    width: 425px;
+    border: 1px solid black;
+}
+
+.messageBtnText{
+    margin-top: 15px;
+    font-size: medium;
+}
+
+.addMessage{
+    width: 30px;
+    height: 30px;
+    margin-top: 8px;
+    margin-left: 300px;
+}
+
+
+.moreMessage{
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
