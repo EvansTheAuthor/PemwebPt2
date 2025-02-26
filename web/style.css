@@ -7,12 +7,20 @@
     display: flex;
 }
 
-.left{
-    height: 100vb;
+.left, .right{
+    height: 100vh;
     width: 600px;
     border-right: 1px solid gray;
+    border-left: 1px solid gray;
     
 }
+
+.middle{
+    height: 100vh;
+    width: 600px;
+}
+
+/*Left Bar*/
 
 .logo{
     margin-top: 15px;
@@ -21,231 +29,23 @@
     height: 25px;
 }
 
-.homeBar{
+.homeBar, .searchBar, .notificationBar, .messageBar, .grokBar, .bookmarkBar, .jobBar, .communityBar, .premiumBar, .verifiedOrgBar, .profileBar, .moreBar{
     display: flex;
     margin-top: 15px;
     margin-left: 335px;
     margin-bottom: 25px;
 }
 
-.home{
+.home, .search, .notification, .message, .grok, .bookmark, .job, .community, .premium, .verifiedOrg, .profile{
     width: 35px;
     height: 35px;
 }
 
-.homeText{
+.homeText, .searchText, .notificationText, .messageText, .grokText, .bookmarkText, .jobText, .communityText, .premiumText, .verifiedOrgText, .profileText, .moreText{
     margin-left: 25px;
     margin-top: 8px;
     font-size: 20px;
     font-style: normal;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.searchBar{
-    display: flex;
-    margin-top: 15px;
-    margin-left: 335px;
-    margin-bottom: 25px;
-}
-
-.search{
-    width: 35px;
-    height: 35px;
-}
-
-.searchText{
-    margin-left: 25px;
-    margin-top: 8px;
-    font-size: 20px;
-    font-style: normal;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.notificationBar{
-    display: flex;
-    margin-top: 15px;
-    margin-left: 335px;
-    margin-bottom: 25px;
-}
-
-.notification{
-    width: 35px;
-    height: 35px;
-}
-
-.notificationText{
-    margin-left: 25px;
-    margin-top: 8px;
-    font-size: 20px;
-    font-style: normal;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.messageBar{
-    display: flex;
-    margin-top: 15px;
-    margin-left: 335px;
-    margin-bottom: 25px;
-}
-
-.message{
-    width: 35px;
-    height: 35px;
-}
-
-.messageText{
-    margin-left: 25px;
-    margin-top: 8px;
-    font-size: 20px;
-    font-style: normal;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.grokBar{
-    display: flex;
-    margin-top: 15px;
-    margin-left: 335px;
-    margin-bottom: 25px;
-}
-
-.grok{
-    width: 35px;
-    height: 35px;
-}
-
-.grokText{
-    margin-left: 25px;
-    margin-top: 8px;
-    font-size: 20px;
-    font-style: normal;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.bookmarkBar{
-    display: flex;
-    margin-top: 15px;
-    margin-left: 335px;
-    margin-bottom: 25px;
-}
-
-.bookmark{
-    width: 35px;
-    height: 35px;
-}
-
-.bookmarkText{
-    margin-left: 25px;
-    margin-top: 8px;
-    font-size: 20px;
-    font-style: normal;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.jobBar{
-    display: flex;
-    margin-top: 15px;
-    margin-left: 335px;
-    margin-bottom: 25px;
-}
-
-.job{
-    width: 35px;
-    height: 35px;
-}
-
-.jobText{
-    margin-left: 25px;
-    margin-top: 8px;
-    font-size: 20px;
-    font-style: normal;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.communityBar{
-    display: flex;
-    margin-top: 15px;
-    margin-left: 335px;
-    margin-bottom: 25px;
-}
-
-.community{
-    width: 35px;
-    height: 35px;
-}
-
-.communityText{
-    margin-left: 25px;
-    margin-top: 8px;
-    font-size: 20px;
-    font-style: normal;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.premiumBar{
-    display: flex;
-    margin-top: 15px;
-    margin-left: 335px;
-    margin-bottom: 25px;
-}
-
-.premium{
-    width: 35px;
-    height: 35px;
-}
-
-.premiumText{
-    margin-left: 25px;
-    margin-top: 8px;
-    font-size: 20px;
-    font-style: normal;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.verifiedOrgBar{
-    display: flex;
-    margin-top: 15px;
-    margin-left: 335px;
-    margin-bottom: 25px;
-}
-
-.verifiedOrg{
-    width: 35px;
-    height: 35px;
-}
-
-.verifiedOrgText{
-    margin-left: 25px;
-    margin-top: 8px;
-    font-size: 20px;
-    font-style: normal;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.profileBar{
-    display: flex;
-    margin-top: 15px;
-    margin-left: 335px;
-    margin-bottom: 25px;
-}
-
-.profile{
-    width: 25px;
-    height: 25px;
-}
-
-.profileText{
-    margin-left: 25px;
-    margin-top: 8px;
-    font-size: 20px;
-    font-style: normal;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.moreBar{
-    display: flex;
-    margin-top: 15px;
-    margin-left: 335px;
-    margin-bottom: 25px;
 }
 
 .more{
@@ -253,14 +53,6 @@
     border-radius: 50%;
     width: 20px;
     height: 20px;
-}
-
-.moreText{
-    margin-left: 25px;
-    margin-top: 8px;
-    font-size: 20px;
-    font-style: normal;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .post{
@@ -293,7 +85,6 @@
 
 .name{
     font-style: normal;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .username{
@@ -307,10 +98,7 @@
     height: 15px;
 }
 
-.middle{
-    height: 100vb;
-    width: 600px;
-}
+/*Middle Bar*/
 
 .upperTab{
     display: flex;
@@ -329,7 +117,6 @@
 .userTop{
     margin-left: 50px;
     font-style: normal;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .usernameTop{
@@ -441,20 +228,11 @@
     margin-bottom: 30px;
 }
 
-.countFollowing{
+.countFollowing, .countFollower{
     margin-right: 3px;
 }
 
-.following{
-    margin-right: 3px;
-    color: grey;
-}
-
-.countFollower{
-    margin-right: 3px;
-}
-
-.follower{
+.following, .follower{
     margin-right: 3px;
     color: grey;
 }
@@ -464,23 +242,7 @@
     margin-bottom: 20px;
 }
 
-.posts{
-    margin-right: 45px;
-}
-
-.replies{
-    margin-right: 45px;
-}
-
-.highlight{
-    margin-right: 45px;
-}
-
-.articles{
-    margin-right: 45px;
-}
-
-.media{
+.posts, .replies, .highlight, .articles, .media{
     margin-right: 45px;
 }
 
@@ -577,31 +339,11 @@
     margin-right: 5px;
 }
 
-.commentCount{
+.commentCount, .retweetCount, .likeCount{
     margin-right: 85px;
 }
 
-.retweet{
-    width: 15px;
-    height: 15px;
-    margin-right: 5px;
-}
-
-.retweetCount{
-    margin-right: 85px;
-}
-
-.like{
-    width: 15px;
-    height: 15px;
-    margin-right: 5px;
-}
-
-.likeCount{
-    margin-right: 85px;
-}
-
-.stat{
+.retweet, .like, .stat{
     width: 15px;
     height: 15px;
     margin-right: 5px;
@@ -611,22 +353,13 @@
     margin-right: 60px;
 }
 
-.mark{
+.mark, .share{
     width: 15px;
     height: 15px;
     margin-right: 5px;
 }
 
-.share{
-    width: 15px;
-    height: 15px;
-    margin-right: 5px;
-}
-
-.right{
-    border-left: 1px solid gray;
-    height: 100vb;
-}
+/*right*/
 
 .searchButton{
     margin-top: 5px;
